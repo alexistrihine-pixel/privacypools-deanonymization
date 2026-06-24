@@ -6,7 +6,7 @@ SQL queries used to extract PrivacyPools on-chain deposit/withdrawal data for en
 
 ### `deposits_by_pool.sql`
 - **Purpose**: Pulls all deposit events in ETH pool with timestamp, amount, depositor address
-- **Dune link**: [https://dune.com/queries/XXXXXX](https://dune.com/queries/7748441)
+- **Dune link**: https://dune.com/queries/7748441
 - **Output columns**: `time, depositor, amount_eth`
 
 ### `withdrawals_by_pool.sql`
