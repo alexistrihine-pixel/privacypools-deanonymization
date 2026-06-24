@@ -2,29 +2,20 @@
 Measuring effective anonymity in PrivacyPools via entropy analysis of on-chain deposit/withdrawal data
 
 ## Project Structure
+```
 .
-
 ├── data/
-
 │   ├── raw/              # Raw exports from Dune (deposits, withdrawals, templates)
-
 │   └── processed/        # Cleaned/derived datasets ready for entropy analysis
-
 ├── queries/
-
 │   └── dune/             # SQL queries used on Dune Analytics, with their own README
-
 ├── results/
-
 │   ├── figures/          # Plots and charts generated from the analysis
-
 │   └── tables/           # Summary statistics, output CSVs
-
 ├── src/                  # Python modules (entropy calculation, heuristics, data loading)
-
 ├── LICENSE
-
 └── README.md
+```
 
 ### Folder details
 
