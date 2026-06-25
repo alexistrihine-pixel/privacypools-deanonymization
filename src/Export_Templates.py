@@ -2,7 +2,7 @@
 from dune_client.client import DuneClient
 import pandas as pd 
 
-dune = DuneClient("4LMa73t2JMPn128D6NcmJBBHnGwf8bd7")
+dune = DuneClient("API_KEY")
 query_result = dune.get_latest_result(7748441)  # replace with your query ID
 
 df = pd.DataFrame(query_result.result.rows)
