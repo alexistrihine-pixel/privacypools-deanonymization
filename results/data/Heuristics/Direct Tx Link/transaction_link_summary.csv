@@ -1,0 +1,9 @@
+scope,asset,direction,n_transactions
+all_time,ETH,D2W,474
+all_time,ETH,W2D,504
+all_time,ERC20,D2W,142
+all_time,ERC20,W2D,166
+after_2023,ETH,D2W,346
+after_2023,ETH,W2D,354
+after_2023,ERC20,D2W,96
+after_2023,ERC20,W2D,118
